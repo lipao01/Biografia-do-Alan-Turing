@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: white;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    margin-bottom: 15px;
+}
+
+/* LINKS */
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    background: white;
+    color: #416F29;
+}
+
+/* NAVEGAÇÕES */
+#home #area-cabecalho #navegacao .home a,
+#biografia #area-cabecalho #navegacao .biografia a,
+#carreira #area-cabecalho #navegacao .carreira a{
+    background: white;
+    color: #416F29;
+}
+
+#area-cabecalho a:visited, #area-cabecalho a:link{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* ÁREAS */
+#area-cabecalho{
+    background: #415F4A;
+    padding: 55px;
+    text-align: center;
+}
+
+#area-principal{
+    width: 980px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#area-1{
+    width: 620px;
+    margin: 35px 310px;
+}
+
+#rodape{
+    background: #415F4A;
+    color: white;
+    width: 1161px;
+    padding: 15px;
+    margin-bottom: -75px;
+    text-align: center;
+    font-size: 0.9em;
+    clear: both;
+}

@@ -1,0 +1,106 @@
+/* FORMATAÇÕES GERAIS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: white;
+}
+
+h3{
+    background: #D9D9D7;
+    color: #424242;
+    width: 271px;
+    padding: 5px;
+}
+
+h4{
+    color: #BDBDBD;
+}
+
+/* LINKS */
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    background: white;
+    color: #416F29;
+}
+
+/* NAVEGAÇÕES */
+#home #area-cabecalho #navegacao .home a,
+#biografia #area-cabecalho #navegacao .biografia a{
+    background: white;
+    color: #416F29;
+}
+
+#area-cabecalho a:visited, #area-cabecalho a:link{
+    padding: 10px;
+    font-size: 1.2em;
+}
+/* ÁREAS */
+#area-cabecalho{
+    background: #415F4A;
+    padding: 55px;
+    text-align: center;
+}
+
+#area-principal{
+    width: 1040px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#area-resumo{
+    margin: 45px 115px;
+    float: left;
+}
+
+#resumo{
+    border: 1px solid #E6E6E6;
+    background: #FAFAFA;
+    width: 259.1px;
+    padding: 8px 10px;
+    margin-top: 0px;
+}
+
+#rodape{
+    background: #415F4A;
+    color: white;
+    width: 1161px;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    clear: both;
+}
+/* FORMATAÇÕES ESPECÍFICAS */
+#area-redes-sociais{
+    width: 200px;
+    margin: 45px -5px;
+    float: right ;
+    background: #FAFAFA;
+    border: 1px solid #E6E6E6;
+}
+
+#area-redes-sociais a{
+    padding: 3px 5px;
+    color: #424259;
+    display: block;
+}
+
+#area-redes-sociais h3{
+    width: 190px;
+    text-align: center;
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: white;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9em;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+h4{
+    color: #838282;
+}
+
+/* LINKS */
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    background: white;
+    color: #416F29;
+}
+
+/* NAVEGAÇÕES */
+#home #area-cabecalho #navegacao .home a,
+#biografia #area-cabecalho #navegacao .biografia a,
+#carreira #area-cabecalho #navegacao .carreira a,
+#filme #area-cabecalho #navegacao .filme a{
+    background: white;
+    color: #416F29;
+}
+
+#area-cabecalho a:visited, #area-cabecalho a:link{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* ÁREAS */
+#area-cabecalho{
+    background: #415F4A;
+    padding: 55px;
+    text-align: center;
+}
+
+#area-principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#area-sinopse{
+    float: right;
+}
+
+#area-sinopse video{
+    width: 700px;
+    margin: 0px 240px;
+}
+
+#area-sinopse img{
+    float: left;
+    width: 150px;
+    margin: 5px 240px;
+}
+
+#resumo-filme{
+    width: 700px;
+    float: left;
+    margin-left: -220px;
+    margin-top: 10px;
+}
+
+#resumo-filme h4{
+    font-weight: normal;
+    display: inline;
+
+}
+
+#resumo-filme p{
+    display: inline;
+}
+
+#resumo-filme button{
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid ;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+#netflix button{
+    background: rgb(187, 9, 9);
+    cursor: pointer;
+    color: white;
+}
+
+#hbo button{
+    background: #3C096A;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.borda{
+    clear: both;
+    border: 1px dotted #B2B2B2;
+    width: 710px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+#sinopse{
+    width: 700px;
+    margin: 80px auto ;
+}
+
+#sinopse h2{
+    margin-top: -25px;
+}
+
+#area-elenco{
+    width: 900px;
+    margin: 0px auto;
+    margin-bottom: 55px;
+}   
+
+#area-elenco img{
+    width: 200px;
+    height: 280px;
+}
+
+#area-elenco h2{
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.area-resumo{
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #E6E6E6;
+    background: #FAFAFA;
+    width: 199px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#rodape{
+    background: #415F4A;
+    color: white;
+    padding: 15px;
+    margin-top: 900px;
+    text-align: center;
+    font-size: 0.9em;
+    clear: both;
+}
+

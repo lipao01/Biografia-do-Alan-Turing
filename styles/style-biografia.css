@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: white;
+}
+
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* LINKS */
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#area-cabecalho a:hover{
+    background: white;
+    color: #416F29;
+}
+
+/* NAVEGAÇÕES */
+#home #area-cabecalho #navegacao .home a,
+#biografia #area-cabecalho #navegacao .biografia a{
+    background: white;
+    color: #416F29;
+}
+
+#area-cabecalho a:visited, #area-cabecalho a:link{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* ÁREAS */
+#area-cabecalho{
+    background: #415F4A;
+    padding: 55px;
+    text-align: center;
+}
+
+#area-principal{
+    width: 1040px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#area-biografia{
+    margin: 45px 165px ;
+}
+
+#biografia{
+    clear: both;
+    margin-bottom: 75px;
+}
+
+#formacao{
+    margin-top: -235px;
+    float: right;
+    width: 390px;
+}
+
+#rodape{
+    background: #415F4A;
+    color: white;
+    width: 1161px;
+    padding: 15px;
+    margin-bottom: -75px;
+    text-align: center;
+    font-size: 0.9em;
+    clear: both;
+}
+
+/* FORMATAÇÕES ESPECÍFICAS */
+#area-principal img{
+    float: left;
+    width: 250px;
+    margin-right: 65px;
+}
+
+#area-formacao img{
+    clear: both;
+    width: 250px;
+    height: 229px;
+    margin-top: 25px;
+}
+ #area-invencao img{
+    clear: both;
+    width: 250px;
+    height: 230px;
+    margin-bottom: 25px;
+ }
+
+ #area-morte img{
+    width: 250px;
+    height: 240px;
+    margin-top: -7px;
+ }
+
+.borda{
+    clear: both;
+    border: 1px dotted #B2B2B2;
+    margin-bottom: 35px;
+    margin-top: -25px;
+}
+
+.borda2{
+    clear: both;
+    border: 1px dotted #B2B2B2;
+    margin-top: 105px;
+    margin-bottom: 45px;
+}
